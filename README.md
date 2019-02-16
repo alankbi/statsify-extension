@@ -1,0 +1,1 @@
+Statsify Chrome Extension
