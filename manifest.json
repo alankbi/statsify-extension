@@ -1,23 +1,16 @@
 {
     "manifest_version": 2,
     "name": "Statsify",
-    "description": "Statsify",
+    "description": "Visualize cool stats about a page with a single click!",
     "version": "1.00",
     "icons": {
-      "128": "assets/logo.png"
+        "128": "assets/logo.png"
     },
-    "content_scripts": [
-      {
-        "matches": ["<all_urls>"],
-        "js": [ "index.js" ],
-        "run_at": "document_end"
-      }
-    ],
     "browser_action": {
-      "default_icon": "assets/logo.png",
-      "default_popup": "popup.html"
+        "default_icon": "assets/logo.png",
+        "default_popup": "popup.html"
     },
     "permissions": [
-      "tabs"
+        "tabs"
     ]
-  }
+}
